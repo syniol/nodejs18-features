@@ -19,6 +19,10 @@ docker-compose -f docker/docker-compose.yml exec app bash
 
 #### Links
  * [Node.js 18 Announcement](https://nodejs.org/en/blog/announcements/v18-release-announce)
+ * [Node.js Streams API](https://nodejs.org/dist/latest-v18.x/docs/api/stream.html)
+ * [V8 Intl.Locale extensions](https://v8.dev/blog/v8-release-99#intl.locale-extensions)
+ * [V8 Finding elements in Arrays and TypedArrays](https://v8.dev/features/finding-in-arrays)
+ * [V8 Faster initialization of instances with new class features](https://v8.dev/blog/faster-class-features)
 
 
 #### Credits
