@@ -1,4 +1,4 @@
-# Node.js Version 18's Features demo in TypeScript
+# Node.js 18's Features in TypeScript
 Experimenting with new features in Node.js release version 18. This is done 
 using TypeScript.
 
