@@ -7,7 +7,9 @@
     "build": "rm -rf ./dist && tsc",
     "prestart": "rm -rf ./dist && tsc",
     "start": "node ./dist/index.js",
-    "test": "node --test"
+    "pretest": "rm -rf ./dist-units && tsc --project tsconfig.test.json",
+    "test": "node --test ./dist-units",
+    "posttest": "rm -rf ./dist-units"
   },
   "repository": {
     "type": "git",
