@@ -1,0 +1,33 @@
+{
+  "name": "node18-features",
+  "version": "1.0.0",
+  "description": "Node.js version 18's new features using TypeScript",
+  "main": "./dist/index.js",
+  "scripts": {
+    "build": "rm -rf ./dist && tsc",
+    "prestart": "rm -rf ./dist && tsc",
+    "start": "node ./dist/index.js",
+    "test": "node --test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/syniol/nodejs18-features.git"
+  },
+  "keywords": [
+    "nodejs18",
+    "nodejs",
+    "typescript",
+    "new",
+    "feartures"
+  ],
+  "author": "Hadi Tajallaei <hadi@syniol.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/syniol/nodejs18-features/issues"
+  },
+  "homepage": "https://github.com/syniol/nodejs18-features#readme",
+  "dependencies": {
+    "@types/node": "^18.15.10",
+    "typescript": "^5.0.2"
+  }
+}

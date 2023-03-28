@@ -1,0 +1,15 @@
+version: "3"
+services:
+  app:
+    image: node:18.15
+    container_name: node_18_feature_container
+    tty: true
+    volumes:
+      - ../:/var/local/app
+    working_dir: /var/local/app
+    networks:
+      - node_18_dev_net
+
+networks:
+  node_18_dev_net:
+    driver: bridge
